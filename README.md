@@ -45,7 +45,6 @@ sudo apt install python3-pip;
 ```  
 3. Install jupyter and other important packages using  
 ```bash  
-pip3 install --upgrade pip3;  
 pip3 install bs4 requests jupyter scipy astropy matplotlib;  
 ```  
 4. Enter the following command to run notebook  
