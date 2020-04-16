@@ -1,5 +1,6 @@
 ## Using Jupyter notebooks
-### Running the Notebook
+_Official documentation : https://jupyter-notebook.readthedocs.io/en/stable/_
+### Opening the Notebook
 Enter following in terminal (Linux/MacOS) or command prompt (Windows)  
 ```bash  
 jupyter notebook  
@@ -14,22 +15,13 @@ The Jupyter Notebook aims to support the latest versions of these browsers:
 Up to date versions of Opera and Edge may also work, but if they don’t, please use one of the supported browsers.  
 Using Safari with HTTPS and an untrusted certificate is known to not work (websockets will fail).  
 
-### Creating a new notebook document
-![](6.gif)
-
-### Cell types
-Notebooks consist of a linear sequence of cells. There are three basic cell types:  
-* Code cells: Input and output of live code that is run in the kernel  
-* Markdown cells: Narrative text with embedded LaTeX equations  
-* Raw cells: Unformatted text that is included, without modification, when notebooks are converted to different formats using nbconvert  
-
 ### Jupyter Notebook Dashboard
 ![](8.png)  
-[](11.png)  
-[](12.png)
-[](13.png)  
 _To see all of your running notebooks along with their directories, click on the “Running” tab:_  
-[](14.png)  
+
+### Creating a new notebook document
+![](6.gif)
+_GIF Credits : https://jupyter-notebook.readthedocs.io/en/stable/_
 
 ### Overview of the Notebook UI
 The notebook UI has the following main areas:  
@@ -40,11 +32,16 @@ The notebook UI has the following main areas:
 #### Notebook user interface  
 ![](7.png)  
 
+### Cell types
+Notebooks consist of a linear sequence of cells. There are three basic cell types:  
+* Code cells: Input and output of live code that is run in the kernel  
+* Markdown cells: Narrative text with embedded LaTeX equations  
+* Raw cells: Unformatted text that is included, without modification, when notebooks are converted to different formats using nbconvert  
+
 ### Model Editor
 Starting with IPython 2.0, the Jupyter Notebook has a modal user interface. This means that the keyboard does different things depending on which mode the Notebook is in. There are two modes: edit mode and command mode.  
 
 #### Edit Mode
-![](10.png)  
 Edit mode is indicated by a green cell border and a prompt showing in the editor area:  
 ![](15.png)  
 Jupyter cell with green border  
@@ -52,7 +49,6 @@ When a cell is in edit mode, you can type into the cell, like a normal text edit
 Enter edit mode by pressing Enter or using the mouse to click on a cell’s editor area.  
 
 #### Command Mode
-![](9.png)  
 Command mode is indicated by a grey cell border with a blue left margin:  
 ![](16.png)  
 Jupyter cell with blue & grey border  
@@ -90,7 +86,8 @@ The most important keyboard shortcuts are Enter, which enters edit mode, and Esc
 
 _For a quick tour of Notebook UI,  click Help, User Interface Tour in the notebook menus._
 
-As a cheat sheet:  
+#### Cheat Sheet for Menu Bar and Tool Bar
 
 ![](0.png)
-_Credits : www.Datacamp.com_
+_Image Credits : www.Datacamp.com_  
+_Cheat Sheet : https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Jupyter_Notebook_Cheat_Sheet.pdf_

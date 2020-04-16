@@ -13,9 +13,20 @@ Set of Jupyter Notebooks, along with datafiles, to get started with Scientific C
 
 ***
 
-## [How to use Jupyter notebooks]()
+## [How to use Jupyter notebooks](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb)
 
-1. ### Opening Notebooks  
+1. ### [Opening the Notebooks](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Opening-the-Notebook) 
+2. ### [Jupyter Notebook Dashboard](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Jupyter-Notebook-Dashboard)
+3. ### [Creating a new notebook document](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Creating-a-new-notebook-document)
+4. ### [Overview of the Notebook UI](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Overview-of-the-Notebook-UI)
+5. ### [Cell types](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Cell-types)
+6. ### [Model Editor](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Model-Editor)
+    1. #### [Edit Mode](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Edit-Mode)
+    2. #### [Command Mode](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Command-Mode)
+    3. #### [Running Code](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Running-Code)
+    4. #### [Keyboard Navigation](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Keyboard-Navigation)
+    5. #### [Mouse Navigation](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Mouse-Navigation)
+    6. #### [Cheat Sheet](./How%20to%20use%20Jupyter%20Notebooks/using_notebooks.ipynb#Cheat-Sheet-for-Menu-Bar-and-Tool-Bar)
 
 
 ***
