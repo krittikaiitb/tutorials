@@ -8,7 +8,7 @@ While Jupyter runs code in many programming languages, Python is a requirement (
 
 ### Windows
 #### Installing python
-All the notebooks (.ipynb) would have python version >= 3.6. I recommend you to use the same version of python to avoid compatibilty issues.  
+All the notebooks (.ipynb) would have python version >= 3.6. I recommend you to use the same version of python to avoid compatibility issues.  
 Install python from https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz.  
 
 #### Using Conda or Miniconda
@@ -52,6 +52,16 @@ Install jupyter and other important packages using
 Enter the following command to run jupyter notebook
 > jupyter-notebook;
 
+### MacOS
+#### Installing Jupyter - Using Conda or Miniconda
+Install Anaconda (it has almost all python packages) from https://docs.anaconda.com/anaconda/install/windows/.
+(Read the instructions carefully)  
+Then open terminal and enter the following command to install Jupyter notebook  
+> conda install jupyter;
+
+Enter the following command to run jupyter notebook
+> jupyter-notebook;
+
 
 Using Virtual environment
 If you are already using python and have requirements of different python package versions then Virtual environment.
@@ -64,5 +74,6 @@ It is helpful for future projects in different versions of python.
 // How to create a Virtual environment.  
 // Installing jupyter notebooks for Linux distros and Windows.  
 // Basic functionalities of jupyter  
+
 
 
