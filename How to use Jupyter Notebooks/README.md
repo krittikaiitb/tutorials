@@ -15,7 +15,7 @@ Up to date versions of Opera and Edge may also work, but if they don’t, please
 Using Safari with HTTPS and an untrusted certificate is known to not work (websockets will fail).  
 
 ### Creating a new notebook document
-6.gif
+![](6.gif)
 
 ### Cell types
 Notebooks consist of a linear sequence of cells. There are three basic cell types:  
@@ -23,47 +23,57 @@ Notebooks consist of a linear sequence of cells. There are three basic cell type
 * Markdown cells: Narrative text with embedded LaTeX equations  
 * Raw cells: Unformatted text that is included, without modification, when notebooks are converted to different formats using nbconvert  
 
-### Notebook Dashboard
-8.png  
-11.png  
-12.png  
-13.png  
-To see all of your running notebooks along with their directories, click on the “Running” tab:  
-14.png  
+### Jupyter Notebook Dashboard
+![](8.png)  
+[](11.png)  
+[](12.png)
+[](13.png)  
+_To see all of your running notebooks along with their directories, click on the “Running” tab:_  
+[](14.png)  
 
 ### Overview of the Notebook UI
 The notebook UI has the following main areas:  
 * Menu  
 * Toolbar  
-* Notebook area and cells  
-7.png  
-Notebook user interface  
+* Notebook area and cells
+
+#### Notebook user interface  
+![](7.png)  
 
 ### Model Editor
 Starting with IPython 2.0, the Jupyter Notebook has a modal user interface. This means that the keyboard does different things depending on which mode the Notebook is in. There are two modes: edit mode and command mode.  
 
 #### Edit Mode
-10.png  
+![](10.png)  
 Edit mode is indicated by a green cell border and a prompt showing in the editor area:  
-15.png  
+![](15.png)  
 Jupyter cell with green border  
 When a cell is in edit mode, you can type into the cell, like a normal text editor.  
 Enter edit mode by pressing Enter or using the mouse to click on a cell’s editor area.  
 
 #### Command Mode
-9.png  
+![](9.png)  
 Command mode is indicated by a grey cell border with a blue left margin:  
-16.png  
+![](16.png)  
 Jupyter cell with blue & grey border  
 When you are in command mode, you are able to edit the notebook as a whole, but not type into individual cells.   Most importantly, in command mode, the keyboard is mapped to a set of shortcuts that let you perform notebook and cell actions efficiently.  
 Don’t try to type into a cell in command mode; unexpected things will happen!  
 Enter command mode by pressing Esc or using the mouse to click outside a cell’s editor area.  
 
-#### Mouse Navigation
-The most important keyboard shortcuts are Enter, which enters edit mode, and Esc, which enters command mode.  
-17.png  
-In edit mode, most of the keyboard is dedicated to typing into the cell’s editor.  
+#### Running Code
+The notebook is associated with the IPython kernel, therefore runs Python code.  
+![](18.png)  
+Code cells allow you to enter and run code
 
+    Run a code cell using Shift-Enter  
+
+There are two other keyboard shortcuts for running code:  
+
+    Alt-Enter runs the current cell and inserts a new one below.  
+    Ctrl-Enter runs the current cell and enters command mode.  
+
+#### Keyboard Navigation
+In edit mode, most of the keyboard is dedicated to typing into the cell’s editor.  
 We recommend learning the command mode shortcuts in the following rough order:  
 * Basic navigation: enter, shift-enter, up/k, down/j  
 * Saving the notebook: s  
@@ -74,19 +84,13 @@ We recommend learning the command mode shortcuts in the following rough order:
 
 _For the full list of available shortcuts, click Help, Keyboard Shortcuts in the notebook menus._
 
-
-#### Running Code
-The notebook is associated with the IPython kernel, therefore runs Python code.  
-18.png  
-Code cells allow you to enter and run code
-
-    Run a code cell using Shift-Enter  
-
-There are two other keyboard shortcuts for running code:  
-
-    Alt-Enter runs the current cell and inserts a new one below.  
-    Ctrl-Enter runs the current cell and enters command mode.  
+#### Mouse Navigation
+The most important keyboard shortcuts are Enter, which enters edit mode, and Esc, which enters command mode.  
+![](17.png)  
 
 _For a quick tour of Notebook UI,  click Help, User Interface Tour in the notebook menus._
 
+As a cheat sheet:  
 
+![](0.png)
+_Credits : www.Datacamp.com_
