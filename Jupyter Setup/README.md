@@ -1,7 +1,4 @@
-# Tutorials
-Set of Jupyter Notebooks, along with datafiles, to get started with Scientific Computing in Astronomy  
-
-## Ways to setup Jupyter notebooks
+## Jupyter Setup
 While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the classic Jupyter Notebook.  
 
 ### Windows

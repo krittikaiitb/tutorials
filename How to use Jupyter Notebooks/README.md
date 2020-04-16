@@ -1,53 +1,92 @@
-# Tutorials
-Set of Jupyter Notebooks, along with datafiles, to get started with Scientific Computing in Astronomy  
-
-## Ways to setup Jupyter notebooks
-While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the classic Jupyter Notebook.  
-
-### Windows
-Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/windows/ "Installing Anaconda on Windows") (Read the instructions carefully)  
-Open command prompt (Press Windows button and type ‘cmd’)  
-Enter the following command to run  
+## Using Jupyter notebooks
+### Running the Notebook
+Enter following in terminal (Linux/MacOS) or command prompt (Windows)  
 ```bash  
 jupyter notebook  
 ```  
-(or you can directly launch in Anaconda Navigator)  
+or you can directly launch in Anaconda Navigator (Windows) 
 
-### MacOS
-Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/mac-os/ "Installing Anaconda on MacOS") (Read the instructions carefully)  
-Open terminal and enter the following command to run  
-```bash  
-jupyter notebook  
-```  
+The Jupyter Notebook aims to support the latest versions of these browsers:  
+* Chrome  
+* Safari  
+* Firefox  
 
-### Linux distribution (includes Ubuntu)
-#### Installing Jupyter - Using Conda or Miniconda
-Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/linux/ "Installing Anaconda on Linux") (Read the instructions carefully)  
-Open terminal (Press CTRL + ALT + T)  
-Enter the following command to run  
-```bash  
-jupyter notebook  
-```  
+Up to date versions of Opera and Edge may also work, but if they don’t, please use one of the supported browsers.  
+Using Safari with HTTPS and an untrusted certificate is known to not work (websockets will fail).  
 
-#### Installing Jupyter - Using python-pip (Try this only if you are comfortable with terminal)
-Python is usually pre-installed in Linux distribution.  
-If you are using Ubuntu 16.04 then the pre-installed python versions are 2.7.12 and 3.5.2.  
-To check your python version, type 'python3' in terminal. If it doesn't work, 'python'.  
-1. Confirm that your python version is 3.6+.  
-If not, install python from https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz  
-or use the following command in terminal  
-```bash  
-sudo apt install python3.8;  
-```  
-2. Install pip using  
-```bash  
-sudo apt install python3-pip;  
-```  
-3. Install jupyter and other important packages using  
-```bash  
-pip3 install bs4 requests jupyter scipy astropy matplotlib;  
-```  
-4. Enter the following command to run notebook  
-```bash  
-jupyter notebook;  
-```  
+### Creating a new notebook document
+6.gif
+
+### Cell types
+Notebooks consist of a linear sequence of cells. There are three basic cell types:  
+* Code cells: Input and output of live code that is run in the kernel  
+* Markdown cells: Narrative text with embedded LaTeX equations  
+* Raw cells: Unformatted text that is included, without modification, when notebooks are converted to different formats using nbconvert  
+
+### Notebook Dashboard
+8.png  
+11.png  
+12.png  
+13.png  
+To see all of your running notebooks along with their directories, click on the “Running” tab:  
+14.png  
+
+### Overview of the Notebook UI
+The notebook UI has the following main areas:  
+* Menu  
+* Toolbar  
+* Notebook area and cells  
+7.png  
+Notebook user interface  
+
+### Model Editor
+Starting with IPython 2.0, the Jupyter Notebook has a modal user interface. This means that the keyboard does different things depending on which mode the Notebook is in. There are two modes: edit mode and command mode.  
+
+#### Edit Mode
+10.png  
+Edit mode is indicated by a green cell border and a prompt showing in the editor area:  
+15.png  
+Jupyter cell with green border  
+When a cell is in edit mode, you can type into the cell, like a normal text editor.  
+Enter edit mode by pressing Enter or using the mouse to click on a cell’s editor area.  
+
+#### Command Mode
+9.png  
+Command mode is indicated by a grey cell border with a blue left margin:  
+16.png  
+Jupyter cell with blue & grey border  
+When you are in command mode, you are able to edit the notebook as a whole, but not type into individual cells.   Most importantly, in command mode, the keyboard is mapped to a set of shortcuts that let you perform notebook and cell actions efficiently.  
+Don’t try to type into a cell in command mode; unexpected things will happen!  
+Enter command mode by pressing Esc or using the mouse to click outside a cell’s editor area.  
+
+#### Mouse Navigation
+The most important keyboard shortcuts are Enter, which enters edit mode, and Esc, which enters command mode.  
+17.png  
+In edit mode, most of the keyboard is dedicated to typing into the cell’s editor.  
+
+We recommend learning the command mode shortcuts in the following rough order:  
+* Basic navigation: enter, shift-enter, up/k, down/j  
+* Saving the notebook: s  
+* Change Cell types: y, m, 1-6, t  
+* Cell creation: a, b  
+* Cell editing: x, c, v, d, z  
+* Kernel operations: i, 0 (press twice)  
+
+_For the full list of available shortcuts, click Help, Keyboard Shortcuts in the notebook menus._
+
+
+#### Running Code
+The notebook is associated with the IPython kernel, therefore runs Python code.  
+18.png  
+Code cells allow you to enter and run code
+
+    Run a code cell using Shift-Enter  
+
+There are two other keyboard shortcuts for running code:  
+
+    Alt-Enter runs the current cell and inserts a new one below.  
+    Ctrl-Enter runs the current cell and enters command mode.  
+
+_For a quick tour of Notebook UI,  click Help, User Interface Tour in the notebook menus._
+
+
