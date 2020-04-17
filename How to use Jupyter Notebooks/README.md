@@ -30,7 +30,7 @@ The notebook UI has the following main areas:
 * Notebook area and cells  
 
 #### Notebook user interface  
-![](network-ui.png)  
+![](notebook-ui.png)  
 
 ### Cell types
 Notebooks consist of a linear sequence of cells. There are three basic cell types:  
