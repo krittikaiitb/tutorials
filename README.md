@@ -31,6 +31,6 @@ Set of Jupyter Notebooks, along with datafiles, to get started with Scientific C
 
 ***
 
-## Tutorial 1
+## [Tutorial 1](./Tutorial_1)
 
 ***
