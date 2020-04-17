@@ -1,53 +1,36 @@
 # Tutorials
 Set of Jupyter Notebooks, along with datafiles, to get started with Scientific Computing in Astronomy  
 
-## Ways to setup Jupyter notebooks
-While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the classic Jupyter Notebook.  
+<hr>
 
-### Windows
-Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/windows/ "Installing Anaconda on Windows") (Read the instructions carefully)  
-Open command prompt (Press Windows button and type ‘cmd’)  
-Enter the following command to run  
-```bash  
-jupyter notebook  
-```  
-(or you can directly launch in Anaconda Navigator)  
+## [How to setup Jupyter notebooks](./Jupyter%20Setup/README.md#Jupyter-Setup )
 
-### MacOS
-Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/mac-os/ "Installing Anaconda on MacOS") (Read the instructions carefully)  
-Open terminal and enter the following command to run  
-```bash  
-jupyter notebook  
-```  
+1. ### [Windows](./Jupyter%20Setup/README.md#Windows )
+2. ### [MacOS](./Jupyter%20Setup/README.md#MacOS )
+3. ### [Linux distribution (includes Ubuntu)](./Jupyter%20Setup/README.md#Linux-distribution-includes-Ubuntu )
+    1. #### [Installing Jupyter - Using Conda or Miniconda](./Jupyter%20Setup/README.md#Installing-Jupyter---Using-Conda-or-Miniconda )
+    2. #### [Installing Jupyter - Using python-pip (Try this only if you are comfortable with terminal)](./Jupyter%20Setup/README.md#Installing-Jupyter---Using-python-pip-Try-this-only-if-you-are-comfortable-with-terminal ) 
 
-### Linux distribution (includes Ubuntu)
-#### Installing Jupyter - Using Conda or Miniconda
-Install Anaconda (it has most of the packages we need) from [here.](https://docs.anaconda.com/anaconda/install/linux/ "Installing Anaconda on Linux") (Read the instructions carefully)  
-Open terminal (Press CTRL + ALT + T)  
-Enter the following command to run  
-```bash  
-jupyter notebook  
-```  
+***
 
-#### Installing Jupyter - Using python-pip (Try this only if you are comfortable with terminal)
-Python is usually pre-installed in Linux distribution.  
-If you are using Ubuntu 16.04 then the pre-installed python versions are 2.7.12 and 3.5.2.  
-To check your python version, type 'python3' in terminal. If it doesn't work, 'python'.  
-1. Confirm that your python version is 3.6+.  
-If not, install python from https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz  
-or use the following command in terminal  
-```bash  
-sudo apt install python3.8;  
-```  
-2. Install pip using  
-```bash  
-sudo apt install python3-pip;  
-```  
-3. Install jupyter and other important packages using  
-```bash  
-pip3 install bs4 requests jupyter scipy astropy matplotlib;  
-```  
-4. Enter the following command to run notebook  
-```bash  
-jupyter notebook;  
-```  
+## [How to use Jupyter notebooks](./How%20to%20use%20Jupyter%20Notebooks/README.md#Using-Jupyter-notebooks )
+
+1. ### [Opening the Notebooks](./How%20to%20use%20Jupyter%20Notebooks/README.md#Opening-the-Notebook) 
+2. ### [Jupyter Notebook Dashboard](./How%20to%20use%20Jupyter%20Notebooks/README.md#Jupyter-Notebook-Dashboard)
+3. ### [Creating a new notebook document](./How%20to%20use%20Jupyter%20Notebooks/README.md#Creating-a-new-notebook-document)
+4. ### [Overview of the Notebook UI](./How%20to%20use%20Jupyter%20Notebooks/README.md#Overview-of-the-Notebook-UI)
+5. ### [Cell types](./How%20to%20use%20Jupyter%20Notebooks/README.md#Cell-types)
+6. ### [Model Editor](./How%20to%20use%20Jupyter%20Notebooks/README.md#Model-Editor)
+    1. #### [Edit Mode](./How%20to%20use%20Jupyter%20Notebooks/README.md#Edit-Mode)
+    2. #### [Command Mode](./How%20to%20use%20Jupyter%20Notebooks/README.md#Command-Mode)
+    3. #### [Running Code](./How%20to%20use%20Jupyter%20Notebooks/README.md#Running-Code)
+    4. #### [Keyboard Navigation](./How%20to%20use%20Jupyter%20Notebooks/README.md#Keyboard-Navigation)
+    5. #### [Mouse Navigation](./How%20to%20use%20Jupyter%20Notebooks/README.md#Mouse-Navigation)
+    6. #### [Cheat Sheet](./How%20to%20use%20Jupyter%20Notebooks/README.md#Cheat-Sheet-for-Menu-Bar-and-Tool-Bar)
+
+
+***
+
+## Tutorial 1
+
+***
