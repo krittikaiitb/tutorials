@@ -45,3 +45,19 @@ Set of Jupyter Notebooks, along with datafiles, to get started with Scientific C
 ## [Tutorial 4](./Tutorial_4 )
 
 ***
+
+## [Tutorial 5](./Tutorial_5)
+
+***
+
+## [Tutorial 6](./Tutorial_6)
+
+***
+
+## [Tutorial 7](./Tutorial_7)
+
+***
+
+## [Tutorial 8](./Tutorial_8)
+
+***
