@@ -30,58 +30,58 @@ Set of Jupyter Notebooks, along with datafiles, to get started with Scientific C
 
 ***
 
-## [Tutorial 1](./Tutorial_01 )
+## [Tutorial 1 : Basics of Python](./Tutorial_01 )
 
 ***
 
-## [Tutorial 2](./Tutorial_02 )
+## [Tutorial 2 : Introduction to NumPy](./Tutorial_02 )
 
 ***
 
-## [Tutorial 3](./Tutorial_03 )
+## [Tutorial 3 : Functions in Python](./Tutorial_03 )
 
 ***
 
-## [Tutorial 4](./Tutorial_04 )
+## [Tutorial 4 : Introduction to Matplotlib (Matplotlib I)](./Tutorial_04 )
 
 ***
 
-## [Tutorial 5](./Tutorial_05)
+## [Tutorial 5 : Introduction to Astropy and FITS format (Astropy I)](./Tutorial_05)
 
 ***
 
-## [Tutorial 6](./Tutorial_06)
+## [Tutorial 6 : Web Scraping](./Tutorial_06)
 
 ***
 
-## [Tutorial 7](./Tutorial_07)
+## [Tutorial 7 : Curve Fitting (SciPy I)](./Tutorial_07)
 
 ***
 
-## [Tutorial 8](./Tutorial_08)
+## [Tutorial 8 : Image Reduction](./Tutorial_08)
 
 ***
 
-## [Tutorial 9](./Tutorial_09)
+## [Tutorial 9 : Advanced Plotting (Matplotlib II)](./Tutorial_09)
 
 ***
 
-## [Tutorial 10](./Tutorial_10)
+## [Tutorial 10 : Astropy Quantities (Astropy II)](./Tutorial_10)
 
 ***
 
-## [Tutorial 11](./Tutorial_11)
+## [Tutorial 11 : Classes in Python](./Tutorial_11)
 
 ***
 
-## [Tutorial 11](./Tutorial_12)
+## [Tutorial 12 : Time Series Analysis (SciPy II)](./Tutorial_12)
 
 ***
 
-## [Tutorial 11](./Tutorial_13)
+## [Tutorial 13 : Coordinate Systems (Astropy III)](./Tutorial_13)
 
 ***
 
-## [Tutorial 11](./Tutorial_14)
+## [Tutorial 14 : Differential Equations (SciPy III)](./Tutorial_14)
 
 ***
