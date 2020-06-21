@@ -30,39 +30,39 @@ Set of Jupyter Notebooks, along with datafiles, to get started with Scientific C
 
 ***
 
-## [Tutorial 1](./Tutorial_1 )
+## [Tutorial 1](./Tutorial_01 )
 
 ***
 
-## [Tutorial 2](./Tutorial_2 )
+## [Tutorial 2](./Tutorial_02 )
 
 ***
 
-## [Tutorial 3](./Tutorial_3 )
+## [Tutorial 3](./Tutorial_03 )
 
 ***
 
-## [Tutorial 4](./Tutorial_4 )
+## [Tutorial 4](./Tutorial_04 )
 
 ***
 
-## [Tutorial 5](./Tutorial_5)
+## [Tutorial 5](./Tutorial_05)
 
 ***
 
-## [Tutorial 6](./Tutorial_6)
+## [Tutorial 6](./Tutorial_06)
 
 ***
 
-## [Tutorial 7](./Tutorial_7)
+## [Tutorial 7](./Tutorial_07)
 
 ***
 
-## [Tutorial 8](./Tutorial_8)
+## [Tutorial 8](./Tutorial_08)
 
 ***
 
-## [Tutorial 9](./Tutorial_9)
+## [Tutorial 9](./Tutorial_09)
 
 ***
 
@@ -71,5 +71,17 @@ Set of Jupyter Notebooks, along with datafiles, to get started with Scientific C
 ***
 
 ## [Tutorial 11](./Tutorial_11)
+
+***
+
+## [Tutorial 11](./Tutorial_12)
+
+***
+
+## [Tutorial 11](./Tutorial_13)
+
+***
+
+## [Tutorial 11](./Tutorial_14)
 
 ***
