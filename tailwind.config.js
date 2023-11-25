@@ -1,0 +1,61 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "text-color-dark-text-primary": "#fff",
+        black: "#000",
+        gray: "rgba(255, 255, 255, 0.91)",
+        "text-color-light-secondary-text": "#555",
+        "text-color-light-tritary-text": "#9d9d9d",
+        "text-color-light-primary-text": "#262626",
+        "button-stroke-stroke": "#d9d9d9",
+        "background-color-footer": "#d1e2eb",
+        "background-color-send-email-frm": "#7296ab",
+        "tag-notif-off-tag": "#ff2e00",
+        "color-green-green-400": "#3dc47e",
+        "color-gray-gray-100": "#e9e9e9",
+      },
+      spacing: {
+        "spacing-3": "12px",
+        "spacing-6": "24px",
+        "spacing-13": "56px",
+        "spacing-8": "32px",
+        "spacing-2": "8px",
+        "spacing-1": "4px",
+        "spacing-5": "20px",
+        "spacing-4": "16px",
+      },
+      fontFamily: {
+        "medium-medium-regular-text": "Lato",
+        inter: "Inter",
+        lateef: "Lateef",
+      },
+      borderRadius: {
+        xl: "20px",
+        "10xs-1": "2.1px",
+        "11xl": "30px",
+        "spacing-1": "4px",
+      },
+    },
+    fontSize: {
+      "11xl": "30px",
+      sm: "14px",
+      mini: "15px",
+      "13xl": "32px",
+      "9xl": "28px",
+      "5xs": "8px",
+      xs: "12px",
+      "3xs": "10px",
+      base: "16px",
+      lg: "18px",
+      xl: "20px",
+      "18xl": "37px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
